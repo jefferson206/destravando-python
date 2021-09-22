@@ -7,7 +7,7 @@ def main():
 
     while True:
         window, event, values = gui.read_all_windows()
-        errorCall = "Please only enter numbers."
+        errorCall = "Por favor digite apenas numeros."
         if window == janela1 and event == gui.WINDOW_CLOSED or window == janela2 and event == gui.WINDOW_CLOSED:
             break
         if window == janela1 and event == 'Enviar dados':
